@@ -10,9 +10,7 @@ module.exports = (...styles) => {
 
   return Object.keys(style)
     .map(key => {
-      let val = style[key]
-      if (typeof val === 'string') val = `"${val}"`
-      return `${slug(key)}: ${val}`
+      return `${slug(key)}: ${style[key]}`
     })
     .join('; ')
 }

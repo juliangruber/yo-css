@@ -1,0 +1,17 @@
+{
+  "name": "yo-css",
+  "version": "0.0.0",
+  "description": "yo-yo helper for inline css",
+  "license": "MIT",
+  "repository": "juliangruber/yo-css",
+  "scripts": {
+    "test": "tape test.js && standard"
+  },
+  "dependencies": {
+    "to-slug-case": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
+  }
+}

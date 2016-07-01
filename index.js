@@ -1,6 +1,6 @@
 'use strict'
 
-const slug = require('to-slug-case')
+const slug = require('hyphenate-style-name')
 
 module.exports = (...styles) => {
   const style = {}

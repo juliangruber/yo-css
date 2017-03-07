@@ -3,14 +3,8 @@
 const slug = require('hyphenate-style-name')
 
 module.exports = (...styles) => {
-  const style = {}
-  for (let _style of styles) {
-    if (_style) Object.assign(style, _style)
-  }
-
+  const style = Object.assign({}, ...styles)
   return Object.keys(style)
-    .map(key => {
-      return `${slug(key)}: ${style[key]}`
-    })
+    .map(key => `${slug(key)}: ${style[key]}`)
     .join('; ')
 }

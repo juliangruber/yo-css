@@ -8,7 +8,7 @@
     "test": "tape test.js && standard"
   },
   "dependencies": {
-    "hyphenate-style-name": "^1.0.1"
+    "hyphenate-style-name": "^1.0.2"
   },
   "devDependencies": {
     "standard": "^8.6.0",

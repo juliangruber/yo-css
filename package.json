@@ -11,7 +11,7 @@
     "hyphenate-style-name": "^1.0.1"
   },
   "devDependencies": {
-    "standard": "^8.6.0",
+    "standard": "^9.0.2",
     "tape": "^4.6.0"
   }
 }
